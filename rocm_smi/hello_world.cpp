@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include <stdio.h>
 #include "rocm_smi/rocm_smi.h"
 int main() {
   rsmi_status_t ret;
@@ -16,6 +17,7 @@ int main() {
     ret = rsmi_dev_id_get(i, &dev_id);
     // dev_id holds the device ID of device i, upon a
     // successful call
+    printf("dev_id is = %d\n", dev_id);
   }
   ret = rsmi_shut_down();
   return 0;
