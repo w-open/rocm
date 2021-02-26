@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch (GDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            //"program": "${workspaceRoot}/HIP-Examples/HIP-Examples-Applications/HelloWorld/HelloWorld", // Program that will be debuged.
+            "program": "${workspaceRoot}/HIP-Examples/vectorAdd/vectoradd_hip",
+            "args": [],	                                                                                // Program arguments if needed.
+            "stopAtEntry": false,                                                                       // Stop at main() after program loaded.
+            //"cwd": "${workspaceRoot}/HIP-Examples/HIP-Examples-Applications/HelloWorld",                // The working directory of target.
+            "cwd": "${workspaceRoot}/HIP-Examples/vectorAdd/",
+            "externalConsole": false,                                                                    // Launch a new console for debug.
+            "envFile": "${workspaceFolder}/.vscode/env"                                                // Set environment.
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+LD_LIBRARY_PATH=/home/ywang/rocm/root/opt/rocm/hip/lib:/home/ywang/rocm/root/opt/rocm/lib:
+HSAKMT_DEBUG_LEVEL=7
+AMD_LOG_LEVEL=4
